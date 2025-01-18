@@ -1,7 +1,7 @@
-package dis.ulpgc.kata3.architecture.io;
+package dis.ulpgc.kata3.io;
 
-import dis.ulpgc.kata3.architecture.model.Barchart;
-import dis.ulpgc.kata3.architecture.model.BarchartElement;
+import dis.ulpgc.kata3.model.Barchart;
+import dis.ulpgc.kata3.model.BarchartElement;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package dis.ulpgc.kata3.app;
 
-import dis.ulpgc.kata3.architecture.control.Command;
+import dis.ulpgc.kata3.control.Command;
 
 import javax.swing.*;
 import java.awt.*;
@@ -43,12 +43,7 @@ public class MainFrame extends JFrame {
 
     private Component toggle() {
         JButton button = new JButton("toggle");
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                commands.get("toggle").execute();
-            }
-        });
+        button.addActionListener(e -> commands.get("toggle").execute());
         return button;
     }
 }

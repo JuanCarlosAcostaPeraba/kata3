@@ -1,4 +1,4 @@
-package dis.ulpgc.kata3.architecture.model;
+package dis.ulpgc.kata3.model;
 
 import java.util.ArrayList;
 import java.util.List;

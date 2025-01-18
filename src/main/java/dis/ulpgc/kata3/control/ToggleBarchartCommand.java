@@ -1,7 +1,7 @@
-package dis.ulpgc.kata3.architecture.control;
+package dis.ulpgc.kata3.control;
 
-import dis.ulpgc.kata3.architecture.view.BarchartDisplay;
-import dis.ulpgc.kata3.architecture.io.BarchartLoader;
+import dis.ulpgc.kata3.view.BarchartDisplay;
+import dis.ulpgc.kata3.io.BarchartLoader;
 
 public class ToggleBarchartCommand implements Command {
     private final BarchartLoader loader;

@@ -1,6 +1,6 @@
-package dis.ulpgc.kata3.architecture.io;
+package dis.ulpgc.kata3.io;
 
-import dis.ulpgc.kata3.architecture.model.Title;
+import dis.ulpgc.kata3.model.Title;
 
 import java.io.IOException;
 import java.util.List;

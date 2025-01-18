@@ -1,4 +1,4 @@
-package dis.ulpgc.kata3.architecture.control;
+package dis.ulpgc.kata3.control;
 
 public interface Command {
     void execute();
